@@ -1,54 +1,95 @@
+/*вся шапка*/
 .header{
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
-    align-items: center;
-    padding-top: 0;
-
+    align-items: center;  
 }
 
-.header_menu-list {
+/*контейнер навигации*/
+.header_menu{    
+}
+
+/*список ссылок*/
+.header_links-list{
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
-    width: 100%; 
-    list-style: circle;
-    gap: 33px;
-    
+    gap: 32px;
+    margin: 133px 36.52px 138px 50px;
+    list-style: none;
+    text-underline-offset: 4px; 
+    max-width: 391.48px;   
 }
 
-.header_menu-item {
-  position: relative;
-  padding: 0 15px;
-   
-}
-.header_menu-link{
-
+/*каждый пункт в списке*/
+.header_links-list-item {    
 }
 
+/*ссылкa без кружочка*/
+.header_links-list-item_no-bullit{
+    list-style-type: none;  
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
 
+/*ссылкa c кружочkom*/
+.header_links-list-item_yes-bullit{
+    list-style-type: circle;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+/*каждая ссылка в пункте списка*/
+.header_link{   
+}
+
+/*выбранная ссылка меню (без подчёркивания)*/
+.header_link_active{
+    text-decoration: none;  
+}
+
+
+/*контейнер логотипа*/
+.header_logo{      
+}
+
+/* картинка с логотипом*/
 .header_logo-image{
-    padding: 92px 184px 96px 36px;
-    display: block;
-    align-items: end;
-    
+    position: absolute;
+    width: 148px;
+    height: 105px;
+    left: calc(50% - 148px/2 + 2px);
+    top: 92px; 
 }
 
-.contact-list {
-  list-style-type: none; 
-  display: flex;
-  flex-direction: column;
-  justify-self: end;
-  align-items: flex-start;
-  gap: 5px;
-  max-width: 240px;
-  font-family: Raleway, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 18px;
-  text-underline-offset: 5px;
-
-  
+/*общий класс для блока с адресом*/
+.address{   
 }
+
+/*для выравнивания блока с адресом*/
+.header_address {   
+    display: flex;
+    flex-direction: column;
+    justify-self: end;
+    max-width: 240px; 
+    text-underline-offset: 4px;
+    list-style-type: none;
+    margin: 95px 50px 100px 184px;    
+}
+
+/*каждый пункт в списке*/
+.header_address-item{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.3px;
+}
+
+
 
 
 
