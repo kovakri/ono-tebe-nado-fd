@@ -1,16 +1,15 @@
 /*вся шляпа*/
-.header{
+.header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
     width: 1100px;
     height: 293px;
     position: relative;
-
 }
 
 /*список ссылок*/
-.header_links-list{
+.header_links-list {
     display: flex;
     flex-direction: row;
     gap: 32px;
@@ -18,44 +17,49 @@
     list-style: none;
     text-underline-offset: 4px; 
     max-width: 391.48px;   
+
 }
 
 /*ссылкa без кружочка*/
-.header_links-list-item_no-bullit{
-    list-style-type: none;  
+.header_links-list-item_no-bullit {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+
 }
 
 /*ссылкa c кружочkom*/
-.header_links-list-item_yes-bullit{
+.header_links-list-item_yes-bullit {
     list-style-type: circle;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+
 }
 
 /*ссылка меню без подчёркивания*/
-.header_link_active{
+.header_link_active {
     text-decoration: none;  
+
 }
 
-.header_logo{
+.header_logo {
     grid-column: 2; 
     justify-self: center;
+
 }
 
 /* картинка с логотипом*/
-.header_logo-image{
+.header_logo-image {
     position: absolute;
     width: 148px;
     height: 105px;
     left: 478px;
     top: 92px; 
+
 }
 
 /*для выравнивания блока с адресом*/
@@ -67,19 +71,20 @@
     text-underline-offset: 4px;
     list-style-type: none;
     margin: 95px 50px 100px 184px;    
+
 }
 
 /*каждый пункт в списке*/
-.header_address-item{
+.header_address-item {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24.3px;
+
 }
 
 /*погнали форсаж 1*/
-.cover{
-    position: relative;
+.cover {
     width: 1100px;
     height: 757px;
     background-image: url(../images/cover.jpg);
@@ -87,6 +92,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
+
 }
 
 /*косим под джековича из элеона*/
@@ -96,6 +102,7 @@
   width: 100%;
   height: 100%;
   z-index: 1;
+
 }
 
 /*заголовок*/
@@ -111,6 +118,7 @@
     text-align: right;
     letter-spacing: 0.3em;
     text-transform: uppercase;
+
 }
 
 /*слова по уровням*/
@@ -123,6 +131,7 @@
     left: 50px;
     justify-content: flex-start;
     align-items: center;
+
 }
 
 .accent-span_text-center {
@@ -134,6 +143,7 @@
     left: 380.5px;
     justify-content: flex-start;
     align-items: center;
+
 }
 
 .accent-span_text-right {
@@ -145,6 +155,7 @@
     left: 663px;
     justify-content: flex-start;
     align-items: center;
+
 }
 
 /*нижняя строка*/
@@ -162,6 +173,7 @@
     text-transform: uppercase;
     color: #FFFFFF;
     z-index: 2;
+
 }
 
 .cover_description-text {
@@ -177,6 +189,7 @@
     font-weight: 400;
     word-spacing: 18.7px;
     align-content: center; 
+
 }
 
 /*кнопка казино*/
@@ -198,6 +211,7 @@
     border-color: rgb(255, 255, 255);
     border-style: solid;
     border-width: 1px;   
+
 }
 
 /*форсаж 2*/
@@ -211,6 +225,7 @@
     font-family: 'Raleway', sans-serif;
     color: #fff;
     position: relative; 
+
 }
 
 /* заголовок */
@@ -222,6 +237,7 @@
     text-transform: uppercase;
     color: #000000;
     padding: 0 0 27px 40px;
+
 }
 
 /* список карточек */
@@ -231,12 +247,14 @@
     list-style: none;
     margin: 0; 
     gap: 25px;
+
 }
 
 .lots_card-list-item {
     position: relative;
     width: 334px;
     height: 596px; 
+
 }
 
 /* ссылка карточки */
@@ -245,6 +263,7 @@
     width: 100%;
     height: 100%;
     text-decoration: none;   
+
 }
 
 /* Карточка */
@@ -256,6 +275,7 @@
     padding: 48px 40px;
     width: 334px;
     height: 596px;
+
 }
 
 /* заголовок карточки */
@@ -268,6 +288,7 @@
     text-decoration-line: underline;
     text-transform: uppercase;
     color: #fff;
+
 }
 
 /* текст карточки */
@@ -279,19 +300,23 @@
     line-height: 120%;
     color: #fff;
     z-index: 10;
+
 }
 
 /* картинки на карточки */
 .card_type_film {
     background: url(../images/card-lot-01.jpg) center/cover no-repeat;
+
 }
 
 .card_type_book {
     background: url(../images/card-lot-02.jpg) center/cover no-repeat;
+
 }
 
 .card_type_picture {
     background: url(../images/card-lot-03.jpg) center/cover no-repeat;
+
 }
 
 /* Ссылка "посмотреть больше" */
@@ -309,6 +334,7 @@
     text-decoration: underline;
     text-underline-offset: 4px;
     text-align: right;     
+
 }
 
 /* форсаж 3 */
@@ -319,6 +345,7 @@
     width: 1052px;
     height: 595px;
     margin: 120px auto 0; 
+
 }
 
 /* логотип */
@@ -333,12 +360,14 @@
     position: absolute;
     margin-top: 35px;
     margin-left: 47px;
+
 }
 
 /* картинка логотипа */
 .about_logo-image {
     width: 148px;
     height: 114px;
+
 }
 
 /* заголовок  */
@@ -354,6 +383,7 @@
     padding-right: 0; 
     width: 100%;
     text-align: left; 
+
 }
 
 /* блок с текстом */
@@ -370,6 +400,7 @@
     font-size: 20px;
     line-height: 24px;
     color: #000000;
+
 }
 
 /* подземелье */
@@ -380,6 +411,7 @@
     width: 1100px;
     height: 180px;
     margin: 180px auto 0;
+
 }
 
 /* адрес по аналу с шапкой */
@@ -392,21 +424,24 @@
     text-underline-offset: 4px;
     list-style-type: none;
     margin-left: 50px;   
+
 }
 
 /*каждый пункт в списке*/
-.footer_address-item{
+.footer_address-item {
     font-style: normal;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
+
 }
 
 .footer_menu {
   display: flex;
   justify-content: center;
   width: 100%;
+
 }
 
 .footer_menu-list {
@@ -422,6 +457,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+
 }
 
 .footer_menu-list-item {
@@ -429,15 +465,18 @@
     line-height: 21px;
     font-weight: 400;
     text-align: center;
+
 }
 
 .footer_menu-link {
     text-transform: lowercase;
     text-underline-offset: 4px;
+
 }
 
 .footer_menu-link_active {
     text-decoration: none;
+
 }
 
 /* соц сети */
@@ -450,23 +489,27 @@
     padding: 0;
     margin-right: 50px; 
     width: auto; 
+
 }
 
 /*для работы с картинками*/
 .footer_social-list-item {
     width: 48px;
     height: 48px;
+
 }
 
 .footer_social-link {
     display: block;
     width: 100%;
     height: 100%;
+
 }
 
 .footer_social-icon {
     width: 100%;
     height: 100%;
     object-fit: contain;
+
 }
 /*конец*/
