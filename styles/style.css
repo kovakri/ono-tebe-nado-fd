@@ -2,7 +2,11 @@
 .header{
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
-    align-items: center;  
+    align-items: center;
+    width: 1100px;
+    height: 293px;
+    position: relative;
+
 }
 
 /*список ссылок*/
@@ -40,12 +44,17 @@
     text-decoration: none;  
 }
 
+.header_logo{
+    grid-column: 2; 
+    justify-self: center;
+}
+
 /* картинка с логотипом*/
 .header_logo-image{
     position: absolute;
     width: 148px;
     height: 105px;
-    left: calc(50% - 148px/2 + 2px);
+    left: 478px;
     top: 92px; 
 }
 
@@ -78,7 +87,6 @@
     background-position: center;
     background-size: cover;
     position: relative;
-   
 }
 
 /*косим под джековича из элеона*/
