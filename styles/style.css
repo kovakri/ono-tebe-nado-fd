@@ -2,8 +2,7 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    width: 1100px;
-     
+    width: 1100px;     
 }
 
 .header_links {
@@ -21,8 +20,7 @@
 
 .header_links-item {   
     list-style-type: circle;
-    text-underline-offset: 4px; 
-            
+    text-underline-offset: 4px;             
 }
 
 .header_links-item-active {
@@ -97,80 +95,77 @@
     line-height: 115%;
     color: #FFF;
     text-transform: uppercase;
-    letter-spacing: 0.3em;
-    
+    letter-spacing: 0.3em;    
 } 
 
 .accent-span_text-left {
-    margin: 165px 0 0 50px;
- 
+    margin: 165px 0 0 50px; 
 }
 
 .accent-span_text-center {
-    margin: 20px 0 0 380.5px;
-     
+    margin: 20px 0 0 380.5px;     
 }
 
 .accent-span_text-right {
     margin: 20px 0 0 663px;  
 }
 
+.cover_description {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: auto;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
 
 .cover_description {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    text-transform: uppercase;
-    color: #FFFFFF;
+    margin-top: auto;
+    width: 100%;
+    position: relative;
+    z-index: 1;
 }
 
 .cover_description-text {
     display: block;
-    position: absolute;
     white-space: nowrap;
-    top: 668px; /* необходимо для точного позиционирования в cover */
-    left: 50px;
+    align-content: center; 
     max-width: 637px;
-    letter-spacing: 0em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
     text-transform: uppercase;
     color: #fff;
-    font-weight: 400;
     word-spacing: 18.7px;
-    align-content: center;
-
+    margin-top: 106px; 
+    margin-left: 50px;
+    margin-bottom: 12px; 
 }
 
 .bet-button {
-    position: absolute; /* необходимо для точного позиционирования в cover */
     min-width: 256px;
     min-height: 51px;
-    align-self: flex-start;
-    text-align: center;
-    text-transform: uppercase;
-    top: 656px;
-    left: 794px;
-    color: #fff;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 22px;
     letter-spacing: 0.6px;
-    background-color: transparent;
-    border-color: rgb(255, 255, 255);
-    border-style: solid;
-    border-width: 1px;   
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    margin-right: 50px;
+   
 }
 
 .lots {
     margin: 180px auto 0;
     font-family: 'Raleway', sans-serif;
-    color: #fff;
-      
+    color: #fff;     
 }
 
 .lots_heading {
@@ -195,7 +190,7 @@
 }
 
 .lots_card-list-item {
-    position: relative; /* нужно для позиционирования текста внутри карточки */
+    position: relative; 
     width: 334px;
     aspect-ratio: 334/596;  /* сохранение соотношения сторон  */
 
@@ -261,8 +256,7 @@
     color: #000;
     text-decoration: underline;
     text-underline-offset: 4px;
-    text-align: right; 
-      
+    text-align: right;      
 }
 
 .about {
