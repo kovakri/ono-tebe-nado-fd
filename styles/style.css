@@ -127,6 +127,7 @@
     width: 100%;
     position: relative;
     z-index: 1;
+    margin-top: 13px;
 }
 
 .cover_description-text {
@@ -243,7 +244,7 @@
 .lots_look-more-link {
     display: inline-block;
     flex-direction: row;
-    margin: 30px 0 2px 54px; 
+    margin: 30px 0 2px 64px; 
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-weight: 400;
