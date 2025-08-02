@@ -26,7 +26,7 @@
     list-style-type: none;
 }
 
-.header_links-item-active .header_link{
+.header_links-item-active .header_link {
     text-decoration: none; 
 }
 
@@ -113,17 +113,6 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-top: auto;
-    width: 100%;
-    position: relative;
-    z-index: 1;
-}
-
-.cover_description {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    margin-top: auto;
     width: 100%;
     position: relative;
     z-index: 1;
