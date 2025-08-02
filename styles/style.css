@@ -23,7 +23,7 @@
 }
 
 .header_links-item-active {
-       list-style-type: none;
+    list-style-type: none;
 }
 
 .header_links-item-active .header_link{
@@ -71,12 +71,12 @@
 }
 
 .overlay {
-  background-color: rgba(0, 0, 0, 0.6);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  top: 0; /* необходимо для наложения */
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    top: 0; /* необходимо для наложения */
 }
 
 .cover_title {
